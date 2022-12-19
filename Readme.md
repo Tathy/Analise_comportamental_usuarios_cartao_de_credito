@@ -19,3 +19,12 @@ Foram removidos campos não relacionados ao comportamento dos usuarios.
 Valores ausentes foram preenchidos por medianas, consideradas aproximações aceitáveis no contexto.
 
 Haviam valores de amplitudes muito altas, enquanto outros variavam entre 0 e 1, portanto todo o dataset foi normalizado para facilitar futuras visualizações.
+
+## Modelagem e Validação
+
+Foi utilizado o K-Means para treinamento do modelo.
+
+As métricas de validação utilizadas foram:
+  * Coeficiente de Silhouette
+  * Índice de Davies-Bouldin
+  * Índice Calinski-Harabasz
