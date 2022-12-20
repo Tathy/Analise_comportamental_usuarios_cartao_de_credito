@@ -37,4 +37,8 @@ Haviam valores de amplitudes muito altas, enquanto outros variavam entre 0 e 1, 
 
 ![Índice Calinski-Harabasz](https://github.com/Tathy/Analise_comportamental_usuarios_cartao_de_credito/blob/main/img/Calinski-Harabasz_plot.png?raw=true)
 
+* O modelo com 6 clusters passou por mais duas validações:
+  * Comparação com um modelo semelhante, mas com dataset aleatório
+  * Estabilidade, com o dataset dividido em 3 subconjuntos
+
 :seedling:
