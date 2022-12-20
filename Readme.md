@@ -22,9 +22,19 @@ Haviam valores de amplitudes muito altas, enquanto outros variavam entre 0 e 1, 
 
 ## Modelagem e Validação
 
-Foi utilizado o K-Means para treinamento do modelo.
+* Os modelos foram construídos utilizando k-Means e variações na quantidade de clusters.
 
-As métricas de validação utilizadas foram:
+* As comparações foram feitas sobre o mesmo dataset, normalizado, e com três métricas de validação:
   * Coeficiente de Silhouette
   * Índice de Davies-Bouldin
   * Índice Calinski-Harabasz
+  
+* Nas três métricas, 6 clusters foi uma quantidade que apresentou os melhores resultados.
+
+![Coeficiente de Silhouette](https://github.com/Tathy/Analise_comportamental_usuarios_cartao_de_credito/blob/main/img/Silhouette_plot.png?raw=true)
+
+![Índice de Davies-Bouldin](https://github.com/Tathy/Analise_comportamental_usuarios_cartao_de_credito/blob/main/img/Davies-Bouldin_plot.png?raw=true)
+
+![Índice Calinski-Harabasz](https://github.com/Tathy/Analise_comportamental_usuarios_cartao_de_credito/blob/main/img/Calinski-Harabasz_plot.png?raw=true)
+
+:seedling:
