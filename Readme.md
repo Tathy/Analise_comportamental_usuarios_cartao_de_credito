@@ -40,5 +40,13 @@ Haviam valores de amplitudes muito altas, enquanto outros variavam entre 0 e 1, 
 * O modelo com 6 clusters passou por mais duas validações:
   * Comparação com um modelo semelhante, mas com dataset aleatório
   * Estabilidade, com o dataset dividido em 3 subconjuntos
+  
+## Análises descritivas das features por cluster
+
+* O dataset tratado possui 16 colunas, o que torna difícil a visualização dos tributos separados por cluster. A visualização par a par também é dificultada pela quantidade de gráficos gerados.
+
+* Serão analisadas as features mais representativas. 
+	* Os atributos mais significativos serão os que determinarem maiores mudanças de valores, ou seja, os atributos com centroides mais dispersos.
+	* Para encontrar estes atributos, foi medida a variância dentro de cada feature/eixo.
 
 :seedling:
